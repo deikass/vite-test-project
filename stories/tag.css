@@ -1,0 +1,12 @@
+.status-tag {
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    padding: 7px 10px;
+    border-radius: 6px;
+    max-height: 37px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    border: 0.0625rem solid black;
+}

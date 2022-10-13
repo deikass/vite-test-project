@@ -1,9 +1,11 @@
-import './style.css'
+import './style.scss'
 import javascriptLogo from './javascript.svg'
 import { setupCounter } from './counter.js'
+import {createTag, createTagDanger} from "./stories/Tag.js";
 
 document.querySelector('#app').innerHTML = `
   <div>
+  ${createTag} ${createTagDanger}
     <a href="https://vitejs.dev" target="_blank">
       <img src="/vite.svg" class="logo" alt="Vite logo" />
     </a>

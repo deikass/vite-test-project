@@ -1,0 +1,44 @@
+.status-tag {
+    box-sizing: border-box;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    color: $color-black;
+    //@include text-bold;
+    padding: 7px 10px;
+    border-radius: 6px;
+    max-height: 37px;
+    display: inline-flex;
+    flex: 0 0 auto;
+    align-items: center;
+    border: 0.0625rem solid black;
+
+&--primary {
+     color: $color-light-blue;
+     border-color: $color-light-blue;
+ }
+
+&--secondary {
+     color: $color-dark-gray;
+     border-color: $color-dark-gray;
+ }
+
+&--success {
+     color: $color-dark-green;
+     border-color: $color-dark-green;
+ }
+
+&--danger {
+     color: $color-strong-red;
+     border-color: $color-strong-red;
+ }
+
+&--warning {
+     color: $color-vivid-orange;
+     border-color: $color-vivid-orange;
+ }
+
+&--info {
+     color: $color-violet;
+     border-color: $color-violet;
+ }
+}
