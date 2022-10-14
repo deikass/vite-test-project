@@ -1,5 +1,6 @@
+@import "style.css";
+
 body {
-  background-color: lightgrey;
 }
 
 .melina {
@@ -8,4 +9,17 @@ body {
 
 .balta {
   color: #ffffff;
+}
+
+.list-wrapper {
+  padding: 30px;
+  display: flex;
+  gap: 20px;
+}
+
+.title {
+  text-align: center;
+  padding: 30px 0;
+  background-color: #0b0b60;
+  color: #FFFFFF;
 }

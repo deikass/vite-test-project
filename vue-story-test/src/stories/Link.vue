@@ -53,7 +53,7 @@
 
 <script>
 import Overlay from './Overlay.vue';
-import '../../../raudona.css'
+import '../../../raudona.scss'
 
 export default {
   components: {Overlay}
