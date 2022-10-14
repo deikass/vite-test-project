@@ -25,40 +25,11 @@ export default {
 
 
 <style>
-.button {
-  display: flex;
-  gap: 8px;
-  font-family: 'Inter', sans-serif;
-  background: none;
-  color: #00386B;
-  border: none;
-  padding: 10px 16px;
-  cursor: pointer;
-  outline: inherit;
-
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 21px;
-}
-
-.button--blue {
-  background: linear-gradient(90deg, #1090D0 28.12%, #2875B7 100%);
-  border-radius: 4px;
-  color: #FFFFFF;
-}
-
-
 .icon-arrow-right {
   background: url(assets/right-icon.svg) no-repeat;
-  float: left;
-  width: 20px;
-  height: 21px;
 }
 
 .icon-arrow-right--white{
   background: url(assets/right-icon-white.svg) no-repeat;
-  float: left;
-  width: 20px;
-  height: 21px;
 }
 </style>

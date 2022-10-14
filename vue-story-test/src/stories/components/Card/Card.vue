@@ -23,6 +23,7 @@
         <div class="card__title">Ocuvite Lutein Forte plėvele dengtos tabletės N30</div>
         <div class="card__subtitle">Agetis Supplements Ltd</div>
         <div class="card__price"><span>nuo</span> 12,00 €</div>
+        <Buttons variant="blue"/>
       </div>
     </div>
   </Overlay>
@@ -30,11 +31,12 @@
 
 <script>
 import Overlay from "../../Overlay.vue";
+import Buttons from "../../Buttons.vue";
 // import '../../../../../scss/global/global.scss'
 // import '../../../../../scss/main.scss'
 // import '../../../../../scss/components/card.scss'
 
 export default {
-  components: {Overlay}
+  components: {Overlay, Buttons}
 }
 </script>

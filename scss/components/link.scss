@@ -1,0 +1,28 @@
+
+.link {
+  font-family: 'Inter', sans-serif;
+  color: grey;
+  text-decoration: none;
+  padding: 5px
+}
+
+.link a{
+  color: grey;
+  text-decoration: none;
+}
+
+.link--large{
+  font-size: 30px;
+}
+
+.link--danger{
+  color: red;
+}
+
+.link--danger a{
+  color: red;
+}
+
+.link-bold {
+  font-weight: bold;
+}

@@ -18,42 +18,13 @@
   <Overlay title="link">
     <li class="link raudona"><a href="/">Apie mus</a></li>
   </Overlay>
+<div>
+  Linkas
+</div>
   </template>
 
-<style>
-
-.link {
-  color: grey;
-  text-decoration: none;
-}
-
-.link a{
-  color: grey;
-  text-decoration: none;
-}
-
-.link--large{
-  font-size: 30px;
-}
-
-.link--danger{
-  color: red;
-}
-
-.link--danger a{
-  color: red;
-}
-
-.link-bold {
-  font-weight: bold;
-}
-
-
-</style>
-
 <script>
-import Overlay from './Overlay.vue';
-import '../../../raudona.scss'
+import Overlay from "../../Overlay.vue";
 
 export default {
   components: {Overlay}
