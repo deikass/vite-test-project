@@ -15,5 +15,8 @@ module.exports = {
   },
   "features": {
     "storyStoreV7": true
-  }
+  },
+  "styles": [
+    "../../scss/main.scss"
+  ],
 }

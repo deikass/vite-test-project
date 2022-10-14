@@ -30,7 +30,9 @@
 
 <script>
 import Overlay from "../../Overlay.vue";
-import '../../../../../scss/components/card.scss'
+// import '../../../../../scss/global/global.scss'
+// import '../../../../../scss/main.scss'
+// import '../../../../../scss/components/card.scss'
 
 export default {
   components: {Overlay}
